@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/fastapi.iml" filepath="$PROJECT_DIR$/.idea/fastapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fastapidocker/.idea/fastapidocker.iml" filepath="$PROJECT_DIR$/../fastapidocker/.idea/fastapidocker.iml" />
     </modules>
   </component>
 </project>
