@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 
 
-router = APIRouter()
+router1 = APIRouter()
 
 
-@router.get('/about')
+@router1.get('/about')
 def about():
     return {"Data": "About"}

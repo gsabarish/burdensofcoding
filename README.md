@@ -18,6 +18,7 @@ Go to Browser
 
 ``` http://localhost:8000/about ```
 
+``` http://localhost:8000/get-item/{item_id} ```
 
 
   
