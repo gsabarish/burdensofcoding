@@ -1,5 +1,7 @@
 # Ignore the venv directory
-fastpi/
 fastapidocker/venv/
+fastapidocker/.idea/
+
+
 
 

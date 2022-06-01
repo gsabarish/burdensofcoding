@@ -3,7 +3,6 @@ data = {
         "name": "Milk",
         "price": 4,
         "brand": "regular"
-}
+    }
 
 }
-
