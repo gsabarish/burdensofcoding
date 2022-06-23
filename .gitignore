@@ -1,6 +1,12 @@
 # Ignore the venv directory
 fastapidocker/venv/
 fastapidocker/.idea/
+/.idea
+fastapidocker/env/
+fastapidocker/.idea/
+*.DS_Store
+
+
 
 
 
