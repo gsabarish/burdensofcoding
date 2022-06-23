@@ -40,6 +40,8 @@ Go to docker-fastapi-app folder
 
 ``` docker-compose up -d --build ```
 
+### Available API Endpoints
+
 ``` http://localhost:8000 ```
 
 ``` http://localhost:8000/get-item/Milk ```
