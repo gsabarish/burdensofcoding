@@ -4,17 +4,17 @@ This app uses a file for dataset (data.json)
 
 Go to fastapidocker folder
 
-Run 
+### Run 
 
 ``` docker build -t fastapi_example . ```
 
 ``` docker run --name app -p 8000:8000 fastapi_example ```
 
-Go to Browser
+### Go to Browser
  
  ``` http://localhost:8000 ```
 
-## Available API Endpoints
+### Available API Endpoints
 
 ``` http://localhost:8000 ```
 
@@ -22,7 +22,9 @@ Go to Browser
 
 ``` http://localhost:8000/get-item/{item_id} ```
 
-Clean up with ``` docker rm ```
+### Clean
+ 
+ ``` docker rm ```
 
 # Docker Python FastAPI MongoDB App 
 
@@ -32,7 +34,9 @@ Mongoseed service pre-populates the db on startup with a sample dataset
 
 GET endpoint returns "Price" for a given "Name"
 
-Go to fastapimongodocker folder
+Go to docker-fastapi-app folder
+
+### Run
 
 ``` docker-compose up -d --build ```
 
@@ -40,7 +44,9 @@ Go to fastapimongodocker folder
 
 ``` http://localhost:8000/get-item/Milk ```
 
-Cleanup with ``` docker-compose stop ``` and ``` docker-compose run ```
+### Clean
+
+``` docker-compose stop ``` and ``` docker-compose run ```
  
 
 
