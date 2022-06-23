@@ -12,5 +12,3 @@ app.include_router(router2)
 def index():
     return "Hello"
 
-
-

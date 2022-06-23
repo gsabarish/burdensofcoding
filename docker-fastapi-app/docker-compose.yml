@@ -1,0 +1,17 @@
+db:
+  image: mongo:latest
+  ports:
+    - 27017:27017
+
+mongo-seed:
+  build: ./mongo-seed
+  links:
+      - db
+
+webserver:
+  build: ./webserver
+  command: uvicorn main:app --host 0.0.0.0 --reload --port 8000
+  ports:
+    - 8000:8000
+  links:
+    - db

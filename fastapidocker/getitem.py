@@ -16,5 +16,3 @@ def get_item(item_id):
         return{"Error": "Item ID does not exists."}
 
     return json_object[item_id]
-
-

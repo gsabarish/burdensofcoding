@@ -1,4 +1,6 @@
-# How to run locally
+# Docker Python Fast API App
+
+This app uses a file for dataset (data.json)
 
 Go to fastapidocker folder
 
@@ -12,13 +14,34 @@ Go to Browser
  
  ``` http://localhost:8000 ```
 
-# Available API Endpoints
+## Available API Endpoints
 
 ``` http://localhost:8000 ```
 
 ``` http://localhost:8000/about ```
 
 ``` http://localhost:8000/get-item/{item_id} ```
+
+Clean up with ``` docker rm ```
+
+# Docker Python FastAPI MongoDB App 
+
+This app uses MongoDB as a dataset
+
+Mongoseed service pre-populates the db on startup with a sample dataset
+
+GET endpoint returns "Price" for a given "Name"
+
+Go to fastapimongodocker folder
+
+``` docker-compose up -d --build ```
+
+``` http://localhost:8000 ```
+
+``` http://localhost:8000/get-item/Milk ```
+
+Cleanup with ``` docker-compose stop ``` and ``` docker-compose run ```
+ 
 
 
   
