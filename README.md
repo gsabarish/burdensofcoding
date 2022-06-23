@@ -48,7 +48,7 @@ Go to docker-fastapi-app folder
 
 ### Clean
 
-``` docker-compose stop ``` and ``` docker-compose run ```
+``` docker-compose stop ``` and ``` docker-compose rm ```
  
 
 
