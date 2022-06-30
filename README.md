@@ -50,8 +50,27 @@ Go to docker-fastapi-app folder
 
 ``` docker-compose stop ``` and ``` docker-compose rm ```
  
+# Docker Python FastAPI Redis MongoDB App 
+
+Same as MongoDB App. Except after first retrieval from the db, the data gets cached into redis.
+The return value contains cache: true or cache:false depending on where the data is retrieved from
+The Redis cache has a expiry. This is purely for testing purposes to see the ``` cache ``` value change
+after every few seconds to showcase source of data.
 
 
-  
+  ### Run
 
+``` docker-compose up -d --build ```
+
+### Available API Endpoints
+
+``` http://localhost:8000 ```
+
+``` http://localhost:8000/get-item-price/{item_name} ```
+
+For ```/get-item-price ``` endpoint, the value returned will be the price if the item name specified.
+
+### Cleen
+
+``` docker-compose stop ``` and ``` docker-compose rm ```
 

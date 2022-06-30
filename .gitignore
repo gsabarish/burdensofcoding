@@ -11,3 +11,6 @@ fastapidocker/.idea/
 
 
 
+/fastapiredismongo/venv/
+/fastapiredismongo/.idea/
+/fastapiredismongo/env/
