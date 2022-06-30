@@ -76,25 +76,3 @@ def extract_db(item_name: str) -> dict:
 price = extract_db('Beef')
 print(price)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
